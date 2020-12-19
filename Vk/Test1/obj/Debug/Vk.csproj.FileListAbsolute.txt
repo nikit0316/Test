@@ -1,0 +1,13 @@
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\Vk.dll
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\Vk.pdb
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\nunit.framework.dll
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\WebDriver.dll
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\WebDriver.Support.dll
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\nunit.framework.pdb
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\nunit.framework.xml
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\bin\Debug\WebDriver.xml
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\obj\Debug\Vk.csprojAssemblyReference.cache
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\obj\Debug\Vk.csproj.CoreCompileInputs.cache
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\obj\Debug\Vk.csproj.CopyComplete
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\obj\Debug\Vk.dll
+C:\Users\tresk\Desktop\asp.net\Vk\Vk\obj\Debug\Vk.pdb
