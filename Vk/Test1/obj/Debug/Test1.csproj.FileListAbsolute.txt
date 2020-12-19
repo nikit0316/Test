@@ -11,3 +11,16 @@ C:\Users\tresk\Desktop\asp.net\Vk\Test1\obj\Debug\Test1.csproj.CoreCompileInputs
 C:\Users\tresk\Desktop\asp.net\Vk\Test1\obj\Debug\Test1.csproj.CopyComplete
 C:\Users\tresk\Desktop\asp.net\Vk\Test1\obj\Debug\Test1.dll
 C:\Users\tresk\Desktop\asp.net\Vk\Test1\obj\Debug\Test1.pdb
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\Test1.dll
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\Test1.pdb
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\nunit.framework.dll
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\WebDriver.dll
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\WebDriver.Support.dll
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\nunit.framework.pdb
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\nunit.framework.xml
+C:\Users\tresk\Desktop\Test\Vk\Test1\bin\Debug\WebDriver.xml
+C:\Users\tresk\Desktop\Test\Vk\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
+C:\Users\tresk\Desktop\Test\Vk\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+C:\Users\tresk\Desktop\Test\Vk\Test1\obj\Debug\Test1.csproj.CopyComplete
+C:\Users\tresk\Desktop\Test\Vk\Test1\obj\Debug\Test1.dll
+C:\Users\tresk\Desktop\Test\Vk\Test1\obj\Debug\Test1.pdb
