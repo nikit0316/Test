@@ -6,18 +6,28 @@
     <e p="C:\Users\tresk\Desktop\Test\Vk" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Test1" t="IncludeRecursive">
+        <e p="ApplicationManager.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Helper" t="Include">
+          <e p="HelperBase.cs" t="Include" />
+          <e p="NavigationHelper.cs" t="Include" />
+          <e p="SearchHelper.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="SearchData.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
-        <e p="SearchData.cs" t="Include" />
-        <e p="SteambuyTest.cs" t="Include" />
-        <e p="SteamSearchTest.cs" t="Include" />
+        <e p="Test" t="Include">
+          <e p="SteambuyTest.cs" t="Include" />
+          <e p="SteamSearchTest.cs" t="Include" />
+          <e p="TestBase.cs" t="Include" />
+          <e p="Tests.cs" t="Include" />
+        </e>
         <e p="Test1.csproj" t="IncludeRecursive" />
-        <e p="TestBase.cs" t="Include" />
-        <e p="Tests.cs" t="Include" />
       </e>
       <e p="Vk.sln" t="IncludeFlat" />
     </e>

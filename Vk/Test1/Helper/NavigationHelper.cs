@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -14,24 +15,16 @@ using NUnit.Framework;
 
 namespace Vk
 {
-    public class TestBase
+    public class NavigationHelper : HelperBase
     {
+        private string baseURL;
+
+        public NavigationHelper(ApplicationManager manager, string baseURL) : base(manager)
+        {
+            this.baseURL = baseURL;
+        }
         
-            public IWebDriver driver;
-            public IDictionary<string, object> vars {get; private set;}
-            public IJavaScriptExecutor js;
-            [SetUp]
-            public void SetUp() {
-                driver = new ChromeDriver(@"C:/");
-                js = (IJavaScriptExecutor)driver;
-                vars = new Dictionary<string, object>();
-            }
-            [TearDown]
-            protected void TearDown() {
-                driver.Quit();
-            }
-            
-            public void CrossingTheBanner()
+        public void CrossingTheBanner()
             {
                 driver.Manage().Window.Size = new System.Drawing.Size(974, 1040);
                 {
@@ -91,6 +84,5 @@ namespace Vk
                 driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
                 driver.FindElement(By.LinkText("Need for Speed")).Click();
             }
-        }
-    
+    }
 }

@@ -53,12 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SearchData.cs" />
-    <Compile Include="SteambuyTest.cs" />
-    <Compile Include="SteamSearchTest.cs" />
-    <Compile Include="TestBase.cs" />
-    <Compile Include="Tests.cs" />
+    <Compile Include="ApplicationManager.cs" />
+    <Compile Include="Helper\HelperBase.cs" />
+    <Compile Include="Helper\NavigationHelper.cs" />
+    <Compile Include="Helper\SearchHelper.cs" />
+    <Compile Include="Model\SearchData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\SteambuyTest.cs" />
+    <Compile Include="Test\SteamSearchTest.cs" />
+    <Compile Include="Test\TestBase.cs" />
+    <Compile Include="Test\Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

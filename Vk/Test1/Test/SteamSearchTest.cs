@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -15,19 +16,15 @@ using NUnit.Framework;
 namespace Vk
 {
     [TestFixture]
-    public class SteambuyTest : TestBase
+    public class SteamSearchTest : TestBase
     {
         [Test]
-        public void steambuy()
+        public void steamSearch()
         {
-            OpenHomePage();
-            CrossingTheBanner();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            GoToBonusSystem();
-            GoHome();
-            NavToggle();
-            GoToCyberpunk();
-            GoHome();
+            app.Navigation.OpenHomePage();
+            app.driver.Manage().Window.Size = new System.Drawing.Size(945, 1020);
+            SearchData search = new SearchData("Need for speed");
+            app.Navigation.SearchOfGame(search);
         }
     }
 }
